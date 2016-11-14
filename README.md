@@ -4,23 +4,27 @@ This sample demonstrates how you can create a friends network using geolocations
 ![Screenshot](https://github.com/thinkgeogithub/TestRepo/blob/master/friendsnetwork.png)
 
 ## Sample Code
+
+###The preceeding code is added to the load event for your application.
 Create the base map overlay to use for your application.
 ```csharp
 // Create WorldMapKitWmsWpfOverlay as the basemap.
-            WorldMapKitWmsWpfOverlay wmk = new WorldMapKitWmsWpfOverlay();
-            wmk.Projection = WorldMapKitProjection.SphericalMercator;
-            wpfMap1.Overlays.Add(wmk);
+WorldMapKitWmsWpfOverlay wmk = new WorldMapKitWmsWpfOverlay();
+wmk.Projection = WorldMapKitProjection.SphericalMercator;
+wpfMap1.Overlays.Add(wmk);
 ```
 
-You'll then create a single tile overlay for your data -- 
+You'll then create a single tile overlay for your data and the circle to represent your area. -- 
 ```csharp
- LayerOverlay layerOverlay = new LayerOverlay();
-            layerOverlay.TileType = TileType.SingleTile;
-            wpfMap1.Overlays.Add("layerOverlay", layerOverlay);
+LayerOverlay layerOverlay = new LayerOverlay();
+layerOverlay.TileType = TileType.SingleTile;
+wpfMap1.Overlays.Add("layerOverlay", layerOverlay);
  
-            // Create the size of point circle.
-            int symbolSize = 50;
+// Create the size of point circle.
+int symbolSize = 50;
 ```
+
+
 
 
 
