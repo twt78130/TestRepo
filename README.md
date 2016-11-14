@@ -2,7 +2,7 @@
 OpenStreetMap (OSM) is a collaborative project to create free geographic data for the entire world. It can be thought of as a "Free Wiki World Map". 
 Now the latest version of MapSuite can support that. 
 
-![Screenshot](https://github.com/thinkgeogithub/TestRepo/blob/master/Screenshot.jpg)
+![Screenshot](TestRepo/Screenshot.jpg)
 
 ### Requirements
 This sample requires the **MapSuite 10.0.0.0** (or later) development build.
