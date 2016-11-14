@@ -1,17 +1,22 @@
-# Label Point with Circle Symbol and Mask Description
-This sample demonstrates how you can create a friends network using geolocations. It uses a combination of styles and labeling allowing you to show points and distances between friends.
+# OpenStreetMap Sample for WinForms
+OpenStreetMap (OSM) is a collaborative project to create free geographic data for the entire world. It can be thought of as a "Free Wiki World Map. 
+Now the latest version of MapSuite can support that. 
+
+### Requirements
+This sample requires the 10.0.0.0 (or later) development build.
+
 
 ![Screenshot](https://github.com/thinkgeogithub/TestRepo/blob/master/friendsnetwork.png)
 
 ## Sample Code
 
 ###The preceeding code is added to the load event for your application.
-Create the base map overlay to use for your application.
+
+The first step is to set `winformsMap.MapUnit` to `GeographyUnit.Meters`. 
+You'll then be able to add the OpenStreetMap overlay with the following code:
 ```csharp
-// Create WorldMapKitWmsWpfOverlay as the basemap.
-WorldMapKitWmsWpfOverlay wmk = new WorldMapKitWmsWpfOverlay();
-wmk.Projection = WorldMapKitProjection.SphericalMercator;
-wpfMap1.Overlays.Add(wmk);
+OpenStreetMapOverlay osmOvelerlay = new OpenStreetMapOverlay();
+winformsMap.Overlays.Add(osmOvelerlay);
 ```
 
 You'll then create a single tile overlay for your data and the circle to represent your area. -- 
