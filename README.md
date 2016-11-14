@@ -3,7 +3,7 @@ OpenStreetMap (OSM) is a collaborative project to create free geographic data fo
 Now the latest version of MapSuite can support that. 
 
 ### Requirements
-This sample requires the 10.0.0.0 (or later) development build.
+This sample requires the **MapSuite 10.0.0.0** (or later) development build.
 
 
 ![Screenshot](https://github.com/thinkgeogithub/TestRepo/blob/master/friendsnetwork.png)
@@ -19,6 +19,7 @@ OpenStreetMapOverlay osmOvelerlay = new OpenStreetMapOverlay();
 winformsMap.Overlays.Add(osmOvelerlay);
 ```
 Once the overlay is added, be sure to call `winformsMap.Refresh()` to get the map to draw the new layer. 
+
 
 
 
