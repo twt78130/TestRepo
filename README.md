@@ -22,6 +22,7 @@ Once the overlay is added, be sure to call `winformsMap.Refresh()` to get the ma
 ### Getting Help
 
 [Map Suite Desktop for Winforms Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_desktop_edition)
+
 [Map Suite Desktop for Winforms Product Description](http://thinkgeo.com/map-suite-developer-gis/desktop-edition/)
 
 ### Key APIs
