@@ -7,7 +7,7 @@ Now the latest version of MapSuite can support that.
 ### Requirements
 This sample requires the **MapSuite 10.0.0.0** (or later) development build.
 
-## Sample Code
+## About the Code
 
 ###The preceeding code is added to the load event for your application.
 
@@ -19,8 +19,9 @@ winformsMap.Overlays.Add(osmOvelerlay);
 ```
 Once the overlay is added, be sure to call `winformsMap.Refresh()` to get the map to draw the new layer. 
 
+## Getting Help
 
-
+[Map Suite Desktop for Winforms Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_desktop_edition)
 
 
 
