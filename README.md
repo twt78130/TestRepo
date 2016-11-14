@@ -1,5 +1,5 @@
 # ThinkGeo Mapsuite Sample
 
-![Screenshot](http://wiki.thinkgeo.com/wiki/_media/webapiedition/worldmapkit.png?cache=)
+![Screenshot](https://github.com/thinkgeogithub/TestRepo/blob/master/friendsnetwork.png)
 
 ## Sample Code
