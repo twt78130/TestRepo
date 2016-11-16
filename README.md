@@ -7,7 +7,7 @@ Now the latest version of MapSuite can support that.
 ### Requirements
 This sample makes use of the following NuGet Packages
 
-  [MapSuite 10.0.0.0](http:mapsuite.nuget)
+   [MapSuite 10.0.0.0](http:mapsuite.nuget)
 
 ## About the Code
 
