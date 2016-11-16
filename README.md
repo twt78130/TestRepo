@@ -11,7 +11,7 @@ This sample makes use of the following NuGet Packages
 
 ### About the Code
 
-###The preceeding code is added to the load event for your application.
+**The preceeding code is added to the load event for your application.**
 
 The first step is to set `winformsMap.MapUnit` to `GeographyUnit.Meters`. 
 You'll then be able to add the OpenStreetMap overlay with the following code:
@@ -31,6 +31,9 @@ Once the overlay is added, be sure to call `winformsMap.Refresh()` to get the ma
 This example makes use of the following APIs:
 
 [ThinkGeo.MapSuite.Layers.OpenStreetMaps](http://wiki.thinkgeo.com/wiki/thinkgeo.mapsuite.core.openstreetmaplayer)
+
+### About Map Suite
+
 
 
 ### About ThinkGeo
