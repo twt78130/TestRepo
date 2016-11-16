@@ -7,9 +7,9 @@ Now the latest version of MapSuite can support that.
 ### Requirements
 This sample makes use of the following NuGet Packages
 
-   [MapSuite 10.0.0.0](http:mapsuite.nuget)
+[MapSuite 10.0.0.0](http:mapsuite.nuget)
 
-## About the Code
+### About the Code
 
 ###The preceeding code is added to the load event for your application.
 
@@ -39,3 +39,4 @@ ThinkGeo is a GIS (Geographic Information Systems) company founded in 2004 and l
 
 
 
+    
