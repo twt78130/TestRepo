@@ -5,7 +5,8 @@ Now the latest version of MapSuite can support that.
 ![Screenshot](https://github.com/thinkgeogithub/TestRepo/blob/master/Screenshot.jpg)
 
 ### Requirements
-This sample requires the **MapSuite 10.0.0.0** (or later) development build.
+This sample makes use of the following NuGet Packages
+  [MapSuite 10.0.0.0](http:mapsuite.nuget)
 
 ## About the Code
 
